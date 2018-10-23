@@ -25,9 +25,10 @@ $(function() {
          */
 
         it('has URL defined and is not empty', function() {
-            for (let i = 0; i < allFeeds.length; i++) {
-                expect(allFeeds[i].url.length).not.toBe(0);
-            }
+            allFeeds.forEach(feed => {
+                expect(feed.url).toBeDefined();
+                expect(feed.url).not.toBe('');
+            });
         });
         /* Test that loops through each feed
          * in the allFeeds object and ensures it has a name defined
@@ -35,9 +36,10 @@ $(function() {
          */
 
         it('has NAME defined and is not empty', function() {
-            for (let i = 0; i < allFeeds.length; i++) {
-                expect(allFeeds[i].name.length).not.toBe(0);
-            }
+            allFeeds.forEach(feed => {
+                expect(feed.name).toBeDefined();
+                expect(feed.name).not.toBe('');
+            });
         });
     });
 
