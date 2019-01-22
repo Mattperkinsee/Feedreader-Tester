@@ -9,6 +9,6 @@ This is a demo of writing test suites in Javascript. The tests are wrote in the 
 ## How to run
 Option 1: You can clone the repo and run the index.html file.
 
-Option 2: View the demo here. [Feedreader-Tester](https://mattperkins.gearedwebdesigns.com/Feedreader-Tester/).
+Option 2: View the demo here. [Feedreader-Tester](https://mattperkins.com/Feedreader-Tester/).
 
 
